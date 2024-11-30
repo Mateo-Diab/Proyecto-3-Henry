@@ -1,0 +1,28 @@
+.container{
+    width: 90vw;
+    gap: 1vw; 
+    height: fit-content;
+    border: 0.2vw solid black;
+    box-shadow: 0vw 0vw 1vw 1vw #00000079;
+    border-radius: 2vw; 
+    background: linear-gradient(to right, #fffffff1, #3744ff);
+    display: flex;
+    padding: 1vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: ease 0.3s;
+    border: 1px solid black;
+    margin:auto;
+}
+
+span{
+    font-weight: 500;
+}
+
+.container img{
+    margin-top: 5vw;
+    width: 27vw;
+    height: auto;
+    border-radius: 20vw;
+}

@@ -1,0 +1,23 @@
+.container{
+    width: 90vw;
+    gap: 5vw; 
+    height: fit-content;
+    border: 0.2vw solid black;
+    box-shadow: 0vw 0vw 1vw 1vw #00000079;
+    border-radius: 2vw; 
+    background: linear-gradient(to right, #ffffff6e, #3744ff);
+    display: flex;
+    padding: 1vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: ease 0.3s;
+    border: 1px solid black;
+    margin:auto;
+}
+
+h1{
+    color: white;
+    text-decoration: underline;
+    font-size: 4vw;
+}
